@@ -1,4 +1,5 @@
 import "./App.css";
+import { Container } from "react-bootstrap";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import Kelas from "./components/Kelas";
@@ -11,13 +12,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/kelas" element={<Kelas />} />
-        <Route path="/latihan" element={<Latihan />} />
-        <Route path="/profil" element={<Profil />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <Container>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/kelas" element={<Kelas />} />
+          <Route path="/latihan" element={<Latihan />} />
+          <Route path="/profil" element={<Profil />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Container>
     </Router>
   );
 }
