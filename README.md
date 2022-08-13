@@ -25,3 +25,22 @@ docs -> [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs
 video -> [https://www.youtube.com/watch?v=0SIuH7yHCpA](https://www.youtube.com/watch?v=0SIuH7yHCpA)
 
 docs -> [https://react-bootstrap.netlify.app/components/alerts](https://react-bootstrap.netlify.app/components/alerts)
+
+# Aplikasi Learning Management System (LMS) yang Child-Friendly untuk Murid Sekolah Dasar di Indonesia: LearnIt!
+
+Kelompok 06 NFP
+
+Ezra Maringan Christian Mastra Hutagaol (16521056), Page Profil
+Dewana Gustavus Haraka Otang (16521101), Page Homepage
+Margaretha Olivia Haryono (16521109), Page Profil
+Moch. Sofyan Firdaus (16521144), Page Homepage
+Irsyad Nurwidianto Basuki (16521189), Page Kelas
+Michael Sihotang (16521201), Page Profil
+Seren Elizabeth Siahaan (16521218), Page Latihan
+Chiquita Ahsanunnisa (16521248), Page Login
+Damian Marvel (16521320), Page Latihan
+Johan Christiansen (16521404), Page Kelas
+Pramaditya Fajri Migfar (16521406), Page Login
+Razan Aditya Putra (16521468), Page Homepage
+Muhammad Zulfiansyah Bayu Pratama (16521512), Page Latihan
+Kenny Benaya Nathan (16521527), Page Kelas
