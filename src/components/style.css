@@ -7,7 +7,7 @@
 body {
     background-color: #FBF5F2;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -96,4 +96,57 @@ input[type="submit"]:hover {
 
 .dino img {
     width: 300px;
+}
+
+.homepage-header {
+    background-color: rgba(229, 229, 229, 0.8);
+}
+
+.info-homepage {
+    position: relative;
+    font-size: large;
+    left: 0.5em;
+}
+
+.bab-materi {
+    background-color: rgba(196, 196, 196, 0.4);
+    border-radius: 25px;
+    width: 95%;
+    height: 95%;
+}
+
+.completion {
+    position: relative;
+    width: 80%;
+    height: 20px;
+    margin-top: 10%;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+}
+
+.comp-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background-color: #ECC055;
+    border-radius: 30px;
+}
+
+.completion > img[alt="crown"] {
+    display: inline-block;
+    position: absolute;
+    height: 200%;
+    left: -4px;
+    bottom: -3px;
+}
+
+.crown-earned {
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.crown-earned::before {
+    content: url(../assets/svg/crown-no-stroke.svg);
 }

@@ -1,11 +1,11 @@
 import Button from "react-bootstrap/Button";
-import { Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import profpic from "../assets/img/profpic.png";
 import tick from "../assets/img/tick.png";
 
 const Profil = () => {
   return (
-    <div className="my-4">
+    <Container className="my-4">
       <Card className="shadow">
         <Row>
           <Col xl={10} xs={8}>
@@ -81,7 +81,7 @@ const Profil = () => {
           </Card>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 

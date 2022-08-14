@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Container>
+      {/* <Container> */} {/* dihapus karena kalo pake ini jadi gak bisa full width */}
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/kelas" element={<Kelas />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/profil" element={<Profil />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-      </Container>
+      {/* </Container> */}
     </Router>
   );
 }
