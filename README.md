@@ -1,6 +1,6 @@
 # Milestone 2 Kelompok 6 NFP
 
-NOTE: pastikan kalian sudah install node.js di komputerr
+NOTE: pastikan kalian sudah install node.js di komputer
 
 ### Langkah buat jalanin aplikasinya
 
