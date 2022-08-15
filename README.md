@@ -1,6 +1,6 @@
 # Milestone 2 Kelompok 6 NFP
 
-NOTE: pastikan kalian sudah install node.js di komputerr
+NOTE: pastikan kalian sudah install node.js di komputer
 
 ### Langkah buat jalanin aplikasinya
 
@@ -37,7 +37,7 @@ Moch. Sofyan Firdaus (16521144), Page Homepage <br />
 Irsyad Nurwidianto Basuki (16521189), Page Kelas <br />
 Michael Sihotang (16521201), Page Profil <br />
 Seren Elizabeth Siahaan (16521218), Page Latihan <br />
-Chiquita Ahsanunnisa (16521248), Page Login <br />
+Chiquita Ahsanunnisa (16521248), Page Login, Page Tantangan <br />
 Damian Marvel (16521320), Page Latihan <br />
 Johan Christiansen (16521404), Page Kelas <br />
 Pramaditya Fajri Migfar (16521406), Page Login <br />
