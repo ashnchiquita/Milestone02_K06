@@ -35,7 +35,7 @@ const Kelas = () => {
                 </img>
               </Row>
               <Row className="mt-4 d-flex align-items-center justify-content-center">
-              BAB 1
+                BAB 1
               </Row>
               <Row className="px-2 ">
                 <Col className="d-flex justify-content-center">
@@ -44,7 +44,8 @@ const Kelas = () => {
                     <img src={crown} alt="crown"/>
                   </div>
                 </Col>
-                <Col className="d-flex justify-content-end">15/40
+                <Col className="d-flex justify-content-end">
+                  15/40
                 </Col>
               </Row>
             </Card>
@@ -59,7 +60,7 @@ const Kelas = () => {
                 </img>
               </Row>
               <Row className="mt-4 d-flex align-items-center justify-content-center">
-              Bilangan
+                Bilangan
               </Row>
               <Row className="px-2 ">
                 <Col className="d-flex justify-content-center">
@@ -74,61 +75,61 @@ const Kelas = () => {
 
         <Row className="align-items-center">
           <Col className="col-6 d-flex justify-content-center">
-          <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ height: '211px', width: '211px' }}>
+            <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ height: '211px', width: '211px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={penjumlahan} alt="penjumlahan">
                 </img>
               </Row>
               <Row className="mt-4 d-flex align-items-center justify-content-center">
-              Penjumlahan
+                Penjumlahan
               </Row>
               <Row className="px-2 ">
                 <Col className="d-flex justify-content-center">
                 </Col>
                 <Col className="d-flex justify-content-center">
-                <img src={crown} alt="crown"/>
+                  <img src={crown} alt="crown"/>
                 </Col>
               </Row>
             </Card>
           </Col>
           <Col className="col-6 d-flex justify-content-center">
-          <Card className="p-1 mb-5 rounded-circle shadow justify-content-between border-secondary border-1" style={{ height: '211px', width: '211px' }}>
+            <Card className="p-1 mb-5 rounded-circle shadow justify-content-between border-secondary border-1" style={{ height: '211px', width: '211px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={satuan} alt="satuan">
                 </img>
               </Row>
               <Row className="mt-4 d-flex align-items-center justify-content-center">
-              Satuan Panjang
+                Satuan Panjang
               </Row>
               <Row className="px-2 ">
                 <Col className="d-flex justify-content-center">
                 </Col>
                 <Col className="d-flex justify-content-center">
-                <img src={crown} alt="crown"/>
+                  <img src={crown} alt="crown"/>
                 </Col>
               </Row>
             </Card>
-            </Col>
+          </Col>
         </Row>
       </Container>
 
       <Container fluid className="mt-5">
         <Row>
           <Col className="col-12 p-3 bg-dark text-white">
-          <Nav className="justify-content-center align-items-center" activeKey="/home">
-            <Nav.Item>
-              <Nav.Link href="/home">Home</Nav.Link>
-            </Nav.Item> 
-            <Nav.Item>
-              <Nav.Link href="/latihan">Latihan</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/profil">Profil</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="/pengaturan">Pengaturan</Nav.Link>
-            </Nav.Item>
-          </Nav>
+            <Nav className="justify-content-center align-items-center" activeKey="/home">
+              <Nav.Item>
+                <Nav.Link href="/home">Home</Nav.Link>
+              </Nav.Item> 
+              <Nav.Item>
+                <Nav.Link href="/latihan">Latihan</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/profil">Profil</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/pengaturan">Pengaturan</Nav.Link>
+              </Nav.Item>
+            </Nav>
           </Col>
         </Row>
       </Container>
