@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import A from '../assets/svg/A.svg';
+import './style.css';
 
 const Latihan = () => {
     return (
@@ -18,16 +18,24 @@ const Latihan = () => {
                     <Col className="d-flex mb-2  p-1"> Pilihan Jawaban : </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">276</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <a href="Jawaban-benar.js">276</a>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">376</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <a href="Jawaban-benar.js">376</a>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">256</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <a href="Jawaban-benar.js">256</a>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">356</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <a href="Jawaban-benar.js">356</a>
+                    </Col>
                 </Row>
             </Container>
         </>
