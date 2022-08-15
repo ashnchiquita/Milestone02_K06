@@ -164,8 +164,8 @@ input[type="submit"]:hover {
     display: inline-block;
     position: absolute;
     height: 200%;
-    left: -18px;
-    bottom: -3px;
+    left: -20px;
+    bottom: 0px;
 }
 
 .kelas_comp-progress {
@@ -173,7 +173,7 @@ input[type="submit"]:hover {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 40%;
+    right: 62%;
     background-color: #ECC055;
     border-radius: 30px;
 }
