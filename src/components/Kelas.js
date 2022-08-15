@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import crown from "../assets/img/crown.png";
-import horse from "../assets/img/h.png";
+import horse from "../assets/img/horse.png";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import "./style.css";
 
@@ -9,7 +9,7 @@ import "./style.css";
 const Kelas = () => {
   return (
     <>
-      <Container fluid className="homepage-header p-5 m-0 align-items-center">
+      <Container fluid className="homepage-header p-5 mb-5 align-items-center">
         <Row>
           <Col className="col-8 justify-content-center">Matematika
           </Col>
@@ -23,11 +23,12 @@ const Kelas = () => {
       <Container fluid className="mx-0 px-5">
         <Row className="align-items-center">
           <Col className="d-flex justify-content-center">
-            <Card className="justify-content-between" style={{ height: '13rem', width: '13rem' }}>
+            <Card className="justify-content-between border-secondary" style={{ height: '128px', width: '211px' }}>
               <Row className="d-flex justify-content-center">
-                gambar
+                <img className="posistion-absolute translate-middle" style = {{width: '50%'}}src={horse} alt="horse">
+                </img>
               </Row>
-              <Row className="d-flex justify-content-center">
+              <Row className="d-flex align-items-center justify-content-center">
               BAB 1
               </Row>
               <Row>
