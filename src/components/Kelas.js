@@ -19,9 +19,11 @@ const Kelas = () => {
           </Col>
           <Col className="col-2 text-end">
             <img src={crown} alt="crown"></img>
+            3
           </Col>
           <Col className="col-2 text-end">
             <img src={diamond} alt="diamond"></img>
+            213
           </Col>
         </Row>
       </Container>
@@ -113,26 +115,7 @@ const Kelas = () => {
         </Row>
       </Container>
 
-      <Container fluid className="mt-5">
-        <Row>
-          <Col className="col-12 p-3 bg-dark text-white">
-            <Nav className="justify-content-center align-items-center" activeKey="/home">
-              <Nav.Item>
-                <Nav.Link href="/home">Home</Nav.Link>
-              </Nav.Item> 
-              <Nav.Item>
-                <Nav.Link href="/latihan">Latihan</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/profil">Profil</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/pengaturan">Pengaturan</Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Col>
-        </Row>
-      </Container>
+      
     </>
   );
 };
