@@ -11,7 +11,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-
+.bigbox {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .main {
     position: absolute;
     top: 50%;
@@ -30,6 +36,7 @@ body {
 
 .user_input {
     position: relative;
+    width: 280px;
 }
 
 .user_input input {
@@ -87,15 +94,17 @@ input[type="submit"]:hover {
 }
 
 .dino {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    object-fit: cover;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: -1;
+    height: auto
 }
 
 .dino img {
-    width: 300px;
+    width: 370px;
 }
 
 .homepage-header {

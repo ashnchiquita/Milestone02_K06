@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 import logo from "../assets/img/logo.png";
-import dino from "../assets/img/dino.jpg";
+import dino from "../assets/img/dino.png";
 
 const Login = () => {
   return (
 	<>
-	<div className="main">
+	<div className="bigbox">
 		<div className="logo">
 			<a href="#"><img src={logo} alt="logo"/></a>
 		</div>
