@@ -1,44 +1,35 @@
 import React from 'react';
-// import { Box } from '@material-ui/core';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import A from '../assets/svg/A.svg';
 
 const Latihan = () => {
     return (
         <>
-            <div className="body">
-                <box style={{ width: 1100, textAlign: 'center' }} className="latihan">
-                    {' '}
-                    Latihan{' '}
-                </box>
-                <div>
-                    <h2 style={{ width: 1100, height: 50 }} className="soal">
-                        {' '}
-                        Hasil dari 12 x 23 ={' '}
-                    </h2>
-                </div>
-                <div>
-                    <h3 className="tulisan"> Pilihan Jawaban:</h3>
-                </div>
-                <div>
-                    <button style={{ width: 1100, textAlign: 'left' }} className="btn">
-                        276
-                    </button>
-                </div>
-                <div>
-                    <button style={{ width: 1100, textAlign: 'left' }} className="btn">
-                        376
-                    </button>
-                </div>
-                <div>
-                    <button style={{ width: 1100, textAlign: 'left' }} className="btn">
-                        356
-                    </button>
-                </div>
-                <div>
-                    <button style={{ width: 1100, textAlign: 'left' }} className="btn">
-                        456
-                    </button>
-                </div>
-            </div>
+            <Container fluid className="homepage-header p-3 m-0">
+                <Row className="m-0 p-0">
+                    <h2 class="text-center">Latihan Soal</h2>
+                </Row>
+            </Container>
+            <Container fluid className="mt-4 px-4 px-lg-5">
+                <Row>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded"> Hasil dari 12 x 23 adalah = ...</Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex mb-2  p-1"> Pilihan Jawaban : </Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">276</Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">376</Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">256</Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">356</Col>
+                </Row>
+            </Container>
         </>
     );
 };
