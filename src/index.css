@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.latihan {
+  width : 350;
+  display: inline-grid;
+  background: rgb(212, 208, 208);
+  color: rgb(0, 0, 0);
+  border: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: inherit;
+}
+
+.soal {
+  width : 350;
+  display: inline-grid;
+  background: rgb(237, 232, 232);
+  color: rgb(5, 5, 5);
+  border-color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: inherit;
+}
+
+.tulisan {
+  background-color: #FBF5F2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px
+}
+
+.btn {
+  width : 350;
+  display: inline-grid;
+  background: rgb(237, 232, 232);
+  color: rgb(5, 5, 5);
+  border-color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.correctbtn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
