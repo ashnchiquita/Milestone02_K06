@@ -24,17 +24,17 @@ const Latihan = () => {
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        <a href="Jawaban-benar.js">376</a>
+                        <a href="Jawaban-salah.js">376</a>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        <a href="Jawaban-benar.js">256</a>
+                        <a href="Jawaban-salah.js">256</a>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        <a href="Jawaban-benar.js">356</a>
+                        <a href="Jawaban-salah.js">356</a>
                     </Col>
                 </Row>
             </Container>
