@@ -20,26 +20,21 @@ const Latihan = () => {
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        {/* <a href="/Jawaban-benar/">276</a> */}
-                        {/* <a href={"benar"} className="stretched-link" >276</a> */}
                         <Nav.Link href="/Jawabanbenar">276</Nav.Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        {/* <a href="Jawaban-salah.js">376</a> */}
                         <Nav.Link href="/Jawabansalaha">376</Nav.Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        {/* <a href="Jawaban-salah.js">256</a> */}
                         <Nav.Link href="/Jawabansalahb">256</Nav.Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
-                        {/* <a href="Jawaban-salah.js">356</a> */}
                         <Nav.Link href="/Jawabansalahc">356</Nav.Link>
                     </Col>
                 </Row>
