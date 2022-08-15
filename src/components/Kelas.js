@@ -28,10 +28,10 @@ const Kelas = () => {
         </Row>
       </Container>
 
-      <Container fluid className="mx-0 px-5">
-        <Row className="align-items-center">
-          <Col className="d-flex justify-content-center">
-            <Card className="p-1 mb-5 rounded-3 shadow justify-content-between border-secondary border-1" style={{ height: '200px', width: '300px' }}>
+      <Container fluid className="mx-0 px-5" >
+        <Row className="align-items-center" >
+          <Col className="d-flex justify-content-center" >
+            <Card className="p-1 mb-5 rounded-3 shadow justify-content-between border-secondary border-1" style={{ backgroundColor: "#E9E8E8", height: '200px', width: '300px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={horse} alt="horse">
                 </img>
@@ -56,7 +56,7 @@ const Kelas = () => {
 
         <Row className="align-items-center">
           <Col className="d-flex justify-content-center">
-          <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ height: '211px', width: '211px' }}>
+          <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ backgroundColor: "#72BFC7", height: '211px', width: '211px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={pencil} alt="pencil">
                 </img>
@@ -77,7 +77,7 @@ const Kelas = () => {
 
         <Row className="align-items-center">
           <Col className="col-6 d-flex justify-content-center">
-            <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ height: '211px', width: '211px' }}>
+            <Card className="p-1 mb-5 shadow justify-content-between rounded-circle border-secondary border-1" style={{ backgroundColor: "#72BFC7", height: '211px', width: '211px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={penjumlahan} alt="penjumlahan">
                 </img>
@@ -95,7 +95,7 @@ const Kelas = () => {
             </Card>
           </Col>
           <Col className="col-6 d-flex justify-content-center">
-            <Card className="p-1 mb-5 rounded-circle shadow justify-content-between border-secondary border-1" style={{ height: '211px', width: '211px' }}>
+            <Card className="p-1 mb-5 rounded-circle shadow justify-content-between border-secondary border-1" style={{ backgroundColor: "#72BFC7", height: '211px', width: '211px' }}>
               <Row className="d-flex justify-content-center position-relative">
                 <img className="position-absolute top-0 start-50 translate-middle" style = {{width: '50%'}}src={satuan} alt="satuan">
                 </img>
