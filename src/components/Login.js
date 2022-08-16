@@ -10,7 +10,7 @@ const Login = () => {
 		<div className="logo">
 			<a href="#"><img src={logo} alt="logo"/></a>
 		</div>
-		<form>
+		<form action="/">
 			<div className="user_input">
 				<input type="text" placeholder="Username" required/>
 			</div>
@@ -18,7 +18,7 @@ const Login = () => {
 				<input type="password" placeholder="Password" required/>
 			</div>
 			<div className="forgot"><p>Lupa Password?</p></div>
-			<input type="submit" value="GO"/>
+			<input type="submit" as="a" href="/tantangan" value="GO"/>
 			<div className="signup">
 				Belum punya akun? <a href="#">Sign Up</a>
 			</div>
