@@ -16,3 +16,7 @@ Pramaditya Fajri Migfar (16521406), Page Login <br />
 Razan Aditya Putra (16521468), Page Homepage <br />
 Muhammad Zulfiansyah Bayu Pratama (16521512), Page Latihan <br />
 Kenny Benaya Nathan (16521527), Page Kelas <br />
+
+## Beberapa Perubahan Dibanding Desain Awal:
+[Figma Desain Awal](https://www.figma.com/file/KvROHGcEpbIfpFJ5C6gFiK/LearnIt!?node-id=5%3A34) <br />
+Plan awal yaitu direalisasikan dalam web app, namun diperbarui menjadi web app yang cocok untuk mobile view.
