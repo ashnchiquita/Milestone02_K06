@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import A from '../assets/svg/A.svg';
+import './style.css';
+import Nav from "react-bootstrap/Nav";
 
 const Latihan = () => {
     return (
@@ -18,16 +19,24 @@ const Latihan = () => {
                     <Col className="d-flex mb-2  p-1"> Pilihan Jawaban : </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">276</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <Nav.Link href="/Jawabanbenar">276</Nav.Link>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">376</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <Nav.Link href="/Jawabansalaha">376</Nav.Link>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">256</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <Nav.Link href="/Jawabansalahb">256</Nav.Link>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">356</Col>
+                    <Col className="d-flex justify-content-center mb-3 border border-dark p-3 rounded-pill">
+                        <Nav.Link href="/Jawabansalahc">356</Nav.Link>
+                    </Col>
                 </Row>
             </Container>
         </>
