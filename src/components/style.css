@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBF5F2;
+    height: 100vh;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.logo a img {
+    width: 250px;
+}
+
+.user_input {
+    position: relative;
+}
+
+.user_input input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+.forgot {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.forgot p {
+    display: inline;
+    cursor: pointer;
+}
+
+.forgot p:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 25px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #EB9F4A;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #d59042;
+    transition: .3s;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #77B29F;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.dino {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+.dino img {
+    width: 300px;
+}
+
+.homepage-header {
+    background-color: rgba(229, 229, 229, 0.8);
+}
+
+.info-homepage {
+    position: relative;
+    font-size: large;
+    left: 0.5em;
+}
+
+.bab-materi {
+    background-color: rgba(196, 196, 196, 0.4);
+    border-radius: 25px;
+    width: 95%;
+}
+
+.crown-earned {
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.crown-earned::before {
+    content: url(../assets/svg/crown-no-stroke.svg);
+}
+
+.kelas_completion {
+    position: relative;
+    width: 80%;
+    height: 10px;
+    margin-top: 10%;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+}
+
+.kelas_completion > img[alt="crown"] {
+    display: inline-block;
+    position: absolute;
+    height: 200%;
+    left: -18px;
+    bottom: -3px;
+}
+
+.kelas_comp-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 40%;
+    background-color: #ECC055;
+    border-radius: 30px;
+}
